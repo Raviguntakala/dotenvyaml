@@ -1,0 +1,14 @@
+[project]
+name = "dotenvyaml"
+version = "0.1.0"
+description = "Load environment variables from .env.yaml files. Like python-dotenv, but for YAML."
+readme = "README.md"
+authors = [
+    { name = "Ravi Kumar", email = "raviguntakala1998@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = ["pyyaml>=6.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
