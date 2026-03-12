@@ -1,6 +1,7 @@
 """Comprehensive tests for dotenvyaml."""
 
 import os
+import sys
 from pathlib import Path
 
 import pytest
@@ -229,6 +230,7 @@ class TestLoad:
         with pytest.raises(ParseError, match="YAML parse error"):
             load(file_path=tmp_path / "bad.yaml")
 
+    @pytest.mark.skipif(sys.platform == "win32", reason="chmod doesn't work on Windows")
     def test_unreadable_file(self, tmp_path):
         f = tmp_path / "noperm.yaml"
         f.write_text("KEY: val")
