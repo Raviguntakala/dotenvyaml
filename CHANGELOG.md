@@ -7,8 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.0] - 2026-03-12
-
 ### Added
 - Rust-powered YAML parsing (4-5x faster than PyYAML)
 - Variable interpolation with `${VAR}` and `${VAR:-default}` syntax
@@ -38,6 +36,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Auto-discovery of .env.yaml files
 - Python 3.12+ support
 
-[Unreleased]: https://github.com/raviguntakala/dotenvyaml/compare/v0.2.0...HEAD
-[0.2.0]: https://github.com/raviguntakala/dotenvyaml/releases/tag/v0.2.0
+[Unreleased]: https://github.com/raviguntakala/dotenvyaml/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/raviguntakala/dotenvyaml/releases/tag/v0.1.0
