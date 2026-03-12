@@ -66,14 +66,16 @@ echo "✅ Tag v$VERSION pushed"
 echo ""
 
 echo "📝 Creating GitHub release..."
-CHANGELOG_SECTION=$(awk "/## \[$VERSION\]/,/## \[/" CHANGELOG.md | grep -v "## \[" | sed '/^$/d' | sed '$d')
+# Extract changelog content between [VERSION] and next version header
+START=$(grep -n "## \[${VERSION}\]" CHANGELOG.md | cut -d: -f1)
+END=$(tail -n +$((START+1)) CHANGELOG.md | grep -n "^## \[" | head -1 | cut -d: -f1)
+CHANGELOG_SECTION=$(sed -n "$((START+1)),$((START+END-1))p" CHANGELOG.md)
 
 if command -v gh &> /dev/null; then
     if [[ -n "$CHANGELOG_SECTION" ]]; then
         gh release create "v$VERSION" --title "v$VERSION" --notes "$CHANGELOG_SECTION"
         echo "✅ GitHub release created"
     else
-        echo "⚠️  No changelog section found for v$VERSION"
         gh release create "v$VERSION" --title "v$VERSION" --generate-notes
         echo "✅ GitHub release created with auto-generated notes"
     fi
