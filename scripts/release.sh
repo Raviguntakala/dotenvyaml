@@ -66,11 +66,17 @@ echo "✅ Tag v$VERSION pushed"
 echo ""
 
 echo "📝 Creating GitHub release..."
-CHANGELOG_SECTION=$(awk "/## \[$VERSION\]/,/## \[/" CHANGELOG.md | grep -v "## \[" | sed '/^$/d' | head -n -1)
+CHANGELOG_SECTION=$(awk "/## \[$VERSION\]/,/## \[/" CHANGELOG.md | grep -v "## \[" | sed '/^$/d' | sed '$d')
 
 if command -v gh &> /dev/null; then
-    gh release create "v$VERSION" --title "v$VERSION" --notes "$CHANGELOG_SECTION"
-    echo "✅ GitHub release created"
+    if [[ -n "$CHANGELOG_SECTION" ]]; then
+        gh release create "v$VERSION" --title "v$VERSION" --notes "$CHANGELOG_SECTION"
+        echo "✅ GitHub release created"
+    else
+        echo "⚠️  No changelog section found for v$VERSION"
+        gh release create "v$VERSION" --title "v$VERSION" --generate-notes
+        echo "✅ GitHub release created with auto-generated notes"
+    fi
 else
     echo "⚠️  Install gh CLI: brew install gh"
 fi

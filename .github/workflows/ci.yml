@@ -28,8 +28,9 @@ jobs:
       - uses: astral-sh/setup-uv@v4
       - name: Build and install
         run: |
-          uv pip install --system maturin pytest pytest-cov
-          maturin develop
+          uv venv
+          uv pip install maturin pytest pytest-cov
+          uv run maturin develop
       - name: Run tests
         run: uv run pytest tests/ -v --cov=dotenvyaml --cov-report=term-missing
       - name: Check coverage
