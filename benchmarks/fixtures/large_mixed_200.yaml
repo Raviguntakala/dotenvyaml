@@ -1,0 +1,2200 @@
+service_0:
+  host: "host-0.example.com"
+  port: 8000
+  debug: true
+  tags:
+    - "tag_a_0"
+    - "tag_b_0"
+  database:
+    host: "db-0.internal"
+    port: 5432
+    name: "db_0"
+service_1:
+  host: "host-1.example.com"
+  port: 8001
+  debug: false
+  tags:
+    - "tag_a_1"
+    - "tag_b_1"
+  database:
+    host: "db-1.internal"
+    port: 5433
+    name: "db_1"
+service_2:
+  host: "host-2.example.com"
+  port: 8002
+  debug: true
+  tags:
+    - "tag_a_2"
+    - "tag_b_2"
+  database:
+    host: "db-2.internal"
+    port: 5434
+    name: "db_2"
+service_3:
+  host: "host-3.example.com"
+  port: 8003
+  debug: false
+  tags:
+    - "tag_a_3"
+    - "tag_b_3"
+  database:
+    host: "db-3.internal"
+    port: 5435
+    name: "db_3"
+service_4:
+  host: "host-4.example.com"
+  port: 8004
+  debug: true
+  tags:
+    - "tag_a_4"
+    - "tag_b_4"
+  database:
+    host: "db-4.internal"
+    port: 5436
+    name: "db_4"
+service_5:
+  host: "host-5.example.com"
+  port: 8005
+  debug: false
+  tags:
+    - "tag_a_5"
+    - "tag_b_5"
+  database:
+    host: "db-5.internal"
+    port: 5437
+    name: "db_5"
+service_6:
+  host: "host-6.example.com"
+  port: 8006
+  debug: true
+  tags:
+    - "tag_a_6"
+    - "tag_b_6"
+  database:
+    host: "db-6.internal"
+    port: 5438
+    name: "db_6"
+service_7:
+  host: "host-7.example.com"
+  port: 8007
+  debug: false
+  tags:
+    - "tag_a_7"
+    - "tag_b_7"
+  database:
+    host: "db-7.internal"
+    port: 5439
+    name: "db_7"
+service_8:
+  host: "host-8.example.com"
+  port: 8008
+  debug: true
+  tags:
+    - "tag_a_8"
+    - "tag_b_8"
+  database:
+    host: "db-8.internal"
+    port: 5440
+    name: "db_8"
+service_9:
+  host: "host-9.example.com"
+  port: 8009
+  debug: false
+  tags:
+    - "tag_a_9"
+    - "tag_b_9"
+  database:
+    host: "db-9.internal"
+    port: 5441
+    name: "db_9"
+service_10:
+  host: "host-10.example.com"
+  port: 8010
+  debug: true
+  tags:
+    - "tag_a_10"
+    - "tag_b_10"
+  database:
+    host: "db-10.internal"
+    port: 5442
+    name: "db_10"
+service_11:
+  host: "host-11.example.com"
+  port: 8011
+  debug: false
+  tags:
+    - "tag_a_11"
+    - "tag_b_11"
+  database:
+    host: "db-11.internal"
+    port: 5443
+    name: "db_11"
+service_12:
+  host: "host-12.example.com"
+  port: 8012
+  debug: true
+  tags:
+    - "tag_a_12"
+    - "tag_b_12"
+  database:
+    host: "db-12.internal"
+    port: 5444
+    name: "db_12"
+service_13:
+  host: "host-13.example.com"
+  port: 8013
+  debug: false
+  tags:
+    - "tag_a_13"
+    - "tag_b_13"
+  database:
+    host: "db-13.internal"
+    port: 5445
+    name: "db_13"
+service_14:
+  host: "host-14.example.com"
+  port: 8014
+  debug: true
+  tags:
+    - "tag_a_14"
+    - "tag_b_14"
+  database:
+    host: "db-14.internal"
+    port: 5446
+    name: "db_14"
+service_15:
+  host: "host-15.example.com"
+  port: 8015
+  debug: false
+  tags:
+    - "tag_a_15"
+    - "tag_b_15"
+  database:
+    host: "db-15.internal"
+    port: 5447
+    name: "db_15"
+service_16:
+  host: "host-16.example.com"
+  port: 8016
+  debug: true
+  tags:
+    - "tag_a_16"
+    - "tag_b_16"
+  database:
+    host: "db-16.internal"
+    port: 5448
+    name: "db_16"
+service_17:
+  host: "host-17.example.com"
+  port: 8017
+  debug: false
+  tags:
+    - "tag_a_17"
+    - "tag_b_17"
+  database:
+    host: "db-17.internal"
+    port: 5449
+    name: "db_17"
+service_18:
+  host: "host-18.example.com"
+  port: 8018
+  debug: true
+  tags:
+    - "tag_a_18"
+    - "tag_b_18"
+  database:
+    host: "db-18.internal"
+    port: 5450
+    name: "db_18"
+service_19:
+  host: "host-19.example.com"
+  port: 8019
+  debug: false
+  tags:
+    - "tag_a_19"
+    - "tag_b_19"
+  database:
+    host: "db-19.internal"
+    port: 5451
+    name: "db_19"
+service_20:
+  host: "host-20.example.com"
+  port: 8020
+  debug: true
+  tags:
+    - "tag_a_20"
+    - "tag_b_20"
+  database:
+    host: "db-20.internal"
+    port: 5452
+    name: "db_20"
+service_21:
+  host: "host-21.example.com"
+  port: 8021
+  debug: false
+  tags:
+    - "tag_a_21"
+    - "tag_b_21"
+  database:
+    host: "db-21.internal"
+    port: 5453
+    name: "db_21"
+service_22:
+  host: "host-22.example.com"
+  port: 8022
+  debug: true
+  tags:
+    - "tag_a_22"
+    - "tag_b_22"
+  database:
+    host: "db-22.internal"
+    port: 5454
+    name: "db_22"
+service_23:
+  host: "host-23.example.com"
+  port: 8023
+  debug: false
+  tags:
+    - "tag_a_23"
+    - "tag_b_23"
+  database:
+    host: "db-23.internal"
+    port: 5455
+    name: "db_23"
+service_24:
+  host: "host-24.example.com"
+  port: 8024
+  debug: true
+  tags:
+    - "tag_a_24"
+    - "tag_b_24"
+  database:
+    host: "db-24.internal"
+    port: 5456
+    name: "db_24"
+service_25:
+  host: "host-25.example.com"
+  port: 8025
+  debug: false
+  tags:
+    - "tag_a_25"
+    - "tag_b_25"
+  database:
+    host: "db-25.internal"
+    port: 5457
+    name: "db_25"
+service_26:
+  host: "host-26.example.com"
+  port: 8026
+  debug: true
+  tags:
+    - "tag_a_26"
+    - "tag_b_26"
+  database:
+    host: "db-26.internal"
+    port: 5458
+    name: "db_26"
+service_27:
+  host: "host-27.example.com"
+  port: 8027
+  debug: false
+  tags:
+    - "tag_a_27"
+    - "tag_b_27"
+  database:
+    host: "db-27.internal"
+    port: 5459
+    name: "db_27"
+service_28:
+  host: "host-28.example.com"
+  port: 8028
+  debug: true
+  tags:
+    - "tag_a_28"
+    - "tag_b_28"
+  database:
+    host: "db-28.internal"
+    port: 5460
+    name: "db_28"
+service_29:
+  host: "host-29.example.com"
+  port: 8029
+  debug: false
+  tags:
+    - "tag_a_29"
+    - "tag_b_29"
+  database:
+    host: "db-29.internal"
+    port: 5461
+    name: "db_29"
+service_30:
+  host: "host-30.example.com"
+  port: 8030
+  debug: true
+  tags:
+    - "tag_a_30"
+    - "tag_b_30"
+  database:
+    host: "db-30.internal"
+    port: 5462
+    name: "db_30"
+service_31:
+  host: "host-31.example.com"
+  port: 8031
+  debug: false
+  tags:
+    - "tag_a_31"
+    - "tag_b_31"
+  database:
+    host: "db-31.internal"
+    port: 5463
+    name: "db_31"
+service_32:
+  host: "host-32.example.com"
+  port: 8032
+  debug: true
+  tags:
+    - "tag_a_32"
+    - "tag_b_32"
+  database:
+    host: "db-32.internal"
+    port: 5464
+    name: "db_32"
+service_33:
+  host: "host-33.example.com"
+  port: 8033
+  debug: false
+  tags:
+    - "tag_a_33"
+    - "tag_b_33"
+  database:
+    host: "db-33.internal"
+    port: 5465
+    name: "db_33"
+service_34:
+  host: "host-34.example.com"
+  port: 8034
+  debug: true
+  tags:
+    - "tag_a_34"
+    - "tag_b_34"
+  database:
+    host: "db-34.internal"
+    port: 5466
+    name: "db_34"
+service_35:
+  host: "host-35.example.com"
+  port: 8035
+  debug: false
+  tags:
+    - "tag_a_35"
+    - "tag_b_35"
+  database:
+    host: "db-35.internal"
+    port: 5467
+    name: "db_35"
+service_36:
+  host: "host-36.example.com"
+  port: 8036
+  debug: true
+  tags:
+    - "tag_a_36"
+    - "tag_b_36"
+  database:
+    host: "db-36.internal"
+    port: 5468
+    name: "db_36"
+service_37:
+  host: "host-37.example.com"
+  port: 8037
+  debug: false
+  tags:
+    - "tag_a_37"
+    - "tag_b_37"
+  database:
+    host: "db-37.internal"
+    port: 5469
+    name: "db_37"
+service_38:
+  host: "host-38.example.com"
+  port: 8038
+  debug: true
+  tags:
+    - "tag_a_38"
+    - "tag_b_38"
+  database:
+    host: "db-38.internal"
+    port: 5470
+    name: "db_38"
+service_39:
+  host: "host-39.example.com"
+  port: 8039
+  debug: false
+  tags:
+    - "tag_a_39"
+    - "tag_b_39"
+  database:
+    host: "db-39.internal"
+    port: 5471
+    name: "db_39"
+service_40:
+  host: "host-40.example.com"
+  port: 8040
+  debug: true
+  tags:
+    - "tag_a_40"
+    - "tag_b_40"
+  database:
+    host: "db-40.internal"
+    port: 5472
+    name: "db_40"
+service_41:
+  host: "host-41.example.com"
+  port: 8041
+  debug: false
+  tags:
+    - "tag_a_41"
+    - "tag_b_41"
+  database:
+    host: "db-41.internal"
+    port: 5473
+    name: "db_41"
+service_42:
+  host: "host-42.example.com"
+  port: 8042
+  debug: true
+  tags:
+    - "tag_a_42"
+    - "tag_b_42"
+  database:
+    host: "db-42.internal"
+    port: 5474
+    name: "db_42"
+service_43:
+  host: "host-43.example.com"
+  port: 8043
+  debug: false
+  tags:
+    - "tag_a_43"
+    - "tag_b_43"
+  database:
+    host: "db-43.internal"
+    port: 5475
+    name: "db_43"
+service_44:
+  host: "host-44.example.com"
+  port: 8044
+  debug: true
+  tags:
+    - "tag_a_44"
+    - "tag_b_44"
+  database:
+    host: "db-44.internal"
+    port: 5476
+    name: "db_44"
+service_45:
+  host: "host-45.example.com"
+  port: 8045
+  debug: false
+  tags:
+    - "tag_a_45"
+    - "tag_b_45"
+  database:
+    host: "db-45.internal"
+    port: 5477
+    name: "db_45"
+service_46:
+  host: "host-46.example.com"
+  port: 8046
+  debug: true
+  tags:
+    - "tag_a_46"
+    - "tag_b_46"
+  database:
+    host: "db-46.internal"
+    port: 5478
+    name: "db_46"
+service_47:
+  host: "host-47.example.com"
+  port: 8047
+  debug: false
+  tags:
+    - "tag_a_47"
+    - "tag_b_47"
+  database:
+    host: "db-47.internal"
+    port: 5479
+    name: "db_47"
+service_48:
+  host: "host-48.example.com"
+  port: 8048
+  debug: true
+  tags:
+    - "tag_a_48"
+    - "tag_b_48"
+  database:
+    host: "db-48.internal"
+    port: 5480
+    name: "db_48"
+service_49:
+  host: "host-49.example.com"
+  port: 8049
+  debug: false
+  tags:
+    - "tag_a_49"
+    - "tag_b_49"
+  database:
+    host: "db-49.internal"
+    port: 5481
+    name: "db_49"
+service_50:
+  host: "host-50.example.com"
+  port: 8050
+  debug: true
+  tags:
+    - "tag_a_50"
+    - "tag_b_50"
+  database:
+    host: "db-50.internal"
+    port: 5482
+    name: "db_50"
+service_51:
+  host: "host-51.example.com"
+  port: 8051
+  debug: false
+  tags:
+    - "tag_a_51"
+    - "tag_b_51"
+  database:
+    host: "db-51.internal"
+    port: 5483
+    name: "db_51"
+service_52:
+  host: "host-52.example.com"
+  port: 8052
+  debug: true
+  tags:
+    - "tag_a_52"
+    - "tag_b_52"
+  database:
+    host: "db-52.internal"
+    port: 5484
+    name: "db_52"
+service_53:
+  host: "host-53.example.com"
+  port: 8053
+  debug: false
+  tags:
+    - "tag_a_53"
+    - "tag_b_53"
+  database:
+    host: "db-53.internal"
+    port: 5485
+    name: "db_53"
+service_54:
+  host: "host-54.example.com"
+  port: 8054
+  debug: true
+  tags:
+    - "tag_a_54"
+    - "tag_b_54"
+  database:
+    host: "db-54.internal"
+    port: 5486
+    name: "db_54"
+service_55:
+  host: "host-55.example.com"
+  port: 8055
+  debug: false
+  tags:
+    - "tag_a_55"
+    - "tag_b_55"
+  database:
+    host: "db-55.internal"
+    port: 5487
+    name: "db_55"
+service_56:
+  host: "host-56.example.com"
+  port: 8056
+  debug: true
+  tags:
+    - "tag_a_56"
+    - "tag_b_56"
+  database:
+    host: "db-56.internal"
+    port: 5488
+    name: "db_56"
+service_57:
+  host: "host-57.example.com"
+  port: 8057
+  debug: false
+  tags:
+    - "tag_a_57"
+    - "tag_b_57"
+  database:
+    host: "db-57.internal"
+    port: 5489
+    name: "db_57"
+service_58:
+  host: "host-58.example.com"
+  port: 8058
+  debug: true
+  tags:
+    - "tag_a_58"
+    - "tag_b_58"
+  database:
+    host: "db-58.internal"
+    port: 5490
+    name: "db_58"
+service_59:
+  host: "host-59.example.com"
+  port: 8059
+  debug: false
+  tags:
+    - "tag_a_59"
+    - "tag_b_59"
+  database:
+    host: "db-59.internal"
+    port: 5491
+    name: "db_59"
+service_60:
+  host: "host-60.example.com"
+  port: 8060
+  debug: true
+  tags:
+    - "tag_a_60"
+    - "tag_b_60"
+  database:
+    host: "db-60.internal"
+    port: 5492
+    name: "db_60"
+service_61:
+  host: "host-61.example.com"
+  port: 8061
+  debug: false
+  tags:
+    - "tag_a_61"
+    - "tag_b_61"
+  database:
+    host: "db-61.internal"
+    port: 5493
+    name: "db_61"
+service_62:
+  host: "host-62.example.com"
+  port: 8062
+  debug: true
+  tags:
+    - "tag_a_62"
+    - "tag_b_62"
+  database:
+    host: "db-62.internal"
+    port: 5494
+    name: "db_62"
+service_63:
+  host: "host-63.example.com"
+  port: 8063
+  debug: false
+  tags:
+    - "tag_a_63"
+    - "tag_b_63"
+  database:
+    host: "db-63.internal"
+    port: 5495
+    name: "db_63"
+service_64:
+  host: "host-64.example.com"
+  port: 8064
+  debug: true
+  tags:
+    - "tag_a_64"
+    - "tag_b_64"
+  database:
+    host: "db-64.internal"
+    port: 5496
+    name: "db_64"
+service_65:
+  host: "host-65.example.com"
+  port: 8065
+  debug: false
+  tags:
+    - "tag_a_65"
+    - "tag_b_65"
+  database:
+    host: "db-65.internal"
+    port: 5497
+    name: "db_65"
+service_66:
+  host: "host-66.example.com"
+  port: 8066
+  debug: true
+  tags:
+    - "tag_a_66"
+    - "tag_b_66"
+  database:
+    host: "db-66.internal"
+    port: 5498
+    name: "db_66"
+service_67:
+  host: "host-67.example.com"
+  port: 8067
+  debug: false
+  tags:
+    - "tag_a_67"
+    - "tag_b_67"
+  database:
+    host: "db-67.internal"
+    port: 5499
+    name: "db_67"
+service_68:
+  host: "host-68.example.com"
+  port: 8068
+  debug: true
+  tags:
+    - "tag_a_68"
+    - "tag_b_68"
+  database:
+    host: "db-68.internal"
+    port: 5500
+    name: "db_68"
+service_69:
+  host: "host-69.example.com"
+  port: 8069
+  debug: false
+  tags:
+    - "tag_a_69"
+    - "tag_b_69"
+  database:
+    host: "db-69.internal"
+    port: 5501
+    name: "db_69"
+service_70:
+  host: "host-70.example.com"
+  port: 8070
+  debug: true
+  tags:
+    - "tag_a_70"
+    - "tag_b_70"
+  database:
+    host: "db-70.internal"
+    port: 5502
+    name: "db_70"
+service_71:
+  host: "host-71.example.com"
+  port: 8071
+  debug: false
+  tags:
+    - "tag_a_71"
+    - "tag_b_71"
+  database:
+    host: "db-71.internal"
+    port: 5503
+    name: "db_71"
+service_72:
+  host: "host-72.example.com"
+  port: 8072
+  debug: true
+  tags:
+    - "tag_a_72"
+    - "tag_b_72"
+  database:
+    host: "db-72.internal"
+    port: 5504
+    name: "db_72"
+service_73:
+  host: "host-73.example.com"
+  port: 8073
+  debug: false
+  tags:
+    - "tag_a_73"
+    - "tag_b_73"
+  database:
+    host: "db-73.internal"
+    port: 5505
+    name: "db_73"
+service_74:
+  host: "host-74.example.com"
+  port: 8074
+  debug: true
+  tags:
+    - "tag_a_74"
+    - "tag_b_74"
+  database:
+    host: "db-74.internal"
+    port: 5506
+    name: "db_74"
+service_75:
+  host: "host-75.example.com"
+  port: 8075
+  debug: false
+  tags:
+    - "tag_a_75"
+    - "tag_b_75"
+  database:
+    host: "db-75.internal"
+    port: 5507
+    name: "db_75"
+service_76:
+  host: "host-76.example.com"
+  port: 8076
+  debug: true
+  tags:
+    - "tag_a_76"
+    - "tag_b_76"
+  database:
+    host: "db-76.internal"
+    port: 5508
+    name: "db_76"
+service_77:
+  host: "host-77.example.com"
+  port: 8077
+  debug: false
+  tags:
+    - "tag_a_77"
+    - "tag_b_77"
+  database:
+    host: "db-77.internal"
+    port: 5509
+    name: "db_77"
+service_78:
+  host: "host-78.example.com"
+  port: 8078
+  debug: true
+  tags:
+    - "tag_a_78"
+    - "tag_b_78"
+  database:
+    host: "db-78.internal"
+    port: 5510
+    name: "db_78"
+service_79:
+  host: "host-79.example.com"
+  port: 8079
+  debug: false
+  tags:
+    - "tag_a_79"
+    - "tag_b_79"
+  database:
+    host: "db-79.internal"
+    port: 5511
+    name: "db_79"
+service_80:
+  host: "host-80.example.com"
+  port: 8080
+  debug: true
+  tags:
+    - "tag_a_80"
+    - "tag_b_80"
+  database:
+    host: "db-80.internal"
+    port: 5512
+    name: "db_80"
+service_81:
+  host: "host-81.example.com"
+  port: 8081
+  debug: false
+  tags:
+    - "tag_a_81"
+    - "tag_b_81"
+  database:
+    host: "db-81.internal"
+    port: 5513
+    name: "db_81"
+service_82:
+  host: "host-82.example.com"
+  port: 8082
+  debug: true
+  tags:
+    - "tag_a_82"
+    - "tag_b_82"
+  database:
+    host: "db-82.internal"
+    port: 5514
+    name: "db_82"
+service_83:
+  host: "host-83.example.com"
+  port: 8083
+  debug: false
+  tags:
+    - "tag_a_83"
+    - "tag_b_83"
+  database:
+    host: "db-83.internal"
+    port: 5515
+    name: "db_83"
+service_84:
+  host: "host-84.example.com"
+  port: 8084
+  debug: true
+  tags:
+    - "tag_a_84"
+    - "tag_b_84"
+  database:
+    host: "db-84.internal"
+    port: 5516
+    name: "db_84"
+service_85:
+  host: "host-85.example.com"
+  port: 8085
+  debug: false
+  tags:
+    - "tag_a_85"
+    - "tag_b_85"
+  database:
+    host: "db-85.internal"
+    port: 5517
+    name: "db_85"
+service_86:
+  host: "host-86.example.com"
+  port: 8086
+  debug: true
+  tags:
+    - "tag_a_86"
+    - "tag_b_86"
+  database:
+    host: "db-86.internal"
+    port: 5518
+    name: "db_86"
+service_87:
+  host: "host-87.example.com"
+  port: 8087
+  debug: false
+  tags:
+    - "tag_a_87"
+    - "tag_b_87"
+  database:
+    host: "db-87.internal"
+    port: 5519
+    name: "db_87"
+service_88:
+  host: "host-88.example.com"
+  port: 8088
+  debug: true
+  tags:
+    - "tag_a_88"
+    - "tag_b_88"
+  database:
+    host: "db-88.internal"
+    port: 5520
+    name: "db_88"
+service_89:
+  host: "host-89.example.com"
+  port: 8089
+  debug: false
+  tags:
+    - "tag_a_89"
+    - "tag_b_89"
+  database:
+    host: "db-89.internal"
+    port: 5521
+    name: "db_89"
+service_90:
+  host: "host-90.example.com"
+  port: 8090
+  debug: true
+  tags:
+    - "tag_a_90"
+    - "tag_b_90"
+  database:
+    host: "db-90.internal"
+    port: 5522
+    name: "db_90"
+service_91:
+  host: "host-91.example.com"
+  port: 8091
+  debug: false
+  tags:
+    - "tag_a_91"
+    - "tag_b_91"
+  database:
+    host: "db-91.internal"
+    port: 5523
+    name: "db_91"
+service_92:
+  host: "host-92.example.com"
+  port: 8092
+  debug: true
+  tags:
+    - "tag_a_92"
+    - "tag_b_92"
+  database:
+    host: "db-92.internal"
+    port: 5524
+    name: "db_92"
+service_93:
+  host: "host-93.example.com"
+  port: 8093
+  debug: false
+  tags:
+    - "tag_a_93"
+    - "tag_b_93"
+  database:
+    host: "db-93.internal"
+    port: 5525
+    name: "db_93"
+service_94:
+  host: "host-94.example.com"
+  port: 8094
+  debug: true
+  tags:
+    - "tag_a_94"
+    - "tag_b_94"
+  database:
+    host: "db-94.internal"
+    port: 5526
+    name: "db_94"
+service_95:
+  host: "host-95.example.com"
+  port: 8095
+  debug: false
+  tags:
+    - "tag_a_95"
+    - "tag_b_95"
+  database:
+    host: "db-95.internal"
+    port: 5527
+    name: "db_95"
+service_96:
+  host: "host-96.example.com"
+  port: 8096
+  debug: true
+  tags:
+    - "tag_a_96"
+    - "tag_b_96"
+  database:
+    host: "db-96.internal"
+    port: 5528
+    name: "db_96"
+service_97:
+  host: "host-97.example.com"
+  port: 8097
+  debug: false
+  tags:
+    - "tag_a_97"
+    - "tag_b_97"
+  database:
+    host: "db-97.internal"
+    port: 5529
+    name: "db_97"
+service_98:
+  host: "host-98.example.com"
+  port: 8098
+  debug: true
+  tags:
+    - "tag_a_98"
+    - "tag_b_98"
+  database:
+    host: "db-98.internal"
+    port: 5530
+    name: "db_98"
+service_99:
+  host: "host-99.example.com"
+  port: 8099
+  debug: false
+  tags:
+    - "tag_a_99"
+    - "tag_b_99"
+  database:
+    host: "db-99.internal"
+    port: 5531
+    name: "db_99"
+service_100:
+  host: "host-100.example.com"
+  port: 8100
+  debug: true
+  tags:
+    - "tag_a_100"
+    - "tag_b_100"
+  database:
+    host: "db-100.internal"
+    port: 5532
+    name: "db_100"
+service_101:
+  host: "host-101.example.com"
+  port: 8101
+  debug: false
+  tags:
+    - "tag_a_101"
+    - "tag_b_101"
+  database:
+    host: "db-101.internal"
+    port: 5533
+    name: "db_101"
+service_102:
+  host: "host-102.example.com"
+  port: 8102
+  debug: true
+  tags:
+    - "tag_a_102"
+    - "tag_b_102"
+  database:
+    host: "db-102.internal"
+    port: 5534
+    name: "db_102"
+service_103:
+  host: "host-103.example.com"
+  port: 8103
+  debug: false
+  tags:
+    - "tag_a_103"
+    - "tag_b_103"
+  database:
+    host: "db-103.internal"
+    port: 5535
+    name: "db_103"
+service_104:
+  host: "host-104.example.com"
+  port: 8104
+  debug: true
+  tags:
+    - "tag_a_104"
+    - "tag_b_104"
+  database:
+    host: "db-104.internal"
+    port: 5536
+    name: "db_104"
+service_105:
+  host: "host-105.example.com"
+  port: 8105
+  debug: false
+  tags:
+    - "tag_a_105"
+    - "tag_b_105"
+  database:
+    host: "db-105.internal"
+    port: 5537
+    name: "db_105"
+service_106:
+  host: "host-106.example.com"
+  port: 8106
+  debug: true
+  tags:
+    - "tag_a_106"
+    - "tag_b_106"
+  database:
+    host: "db-106.internal"
+    port: 5538
+    name: "db_106"
+service_107:
+  host: "host-107.example.com"
+  port: 8107
+  debug: false
+  tags:
+    - "tag_a_107"
+    - "tag_b_107"
+  database:
+    host: "db-107.internal"
+    port: 5539
+    name: "db_107"
+service_108:
+  host: "host-108.example.com"
+  port: 8108
+  debug: true
+  tags:
+    - "tag_a_108"
+    - "tag_b_108"
+  database:
+    host: "db-108.internal"
+    port: 5540
+    name: "db_108"
+service_109:
+  host: "host-109.example.com"
+  port: 8109
+  debug: false
+  tags:
+    - "tag_a_109"
+    - "tag_b_109"
+  database:
+    host: "db-109.internal"
+    port: 5541
+    name: "db_109"
+service_110:
+  host: "host-110.example.com"
+  port: 8110
+  debug: true
+  tags:
+    - "tag_a_110"
+    - "tag_b_110"
+  database:
+    host: "db-110.internal"
+    port: 5542
+    name: "db_110"
+service_111:
+  host: "host-111.example.com"
+  port: 8111
+  debug: false
+  tags:
+    - "tag_a_111"
+    - "tag_b_111"
+  database:
+    host: "db-111.internal"
+    port: 5543
+    name: "db_111"
+service_112:
+  host: "host-112.example.com"
+  port: 8112
+  debug: true
+  tags:
+    - "tag_a_112"
+    - "tag_b_112"
+  database:
+    host: "db-112.internal"
+    port: 5544
+    name: "db_112"
+service_113:
+  host: "host-113.example.com"
+  port: 8113
+  debug: false
+  tags:
+    - "tag_a_113"
+    - "tag_b_113"
+  database:
+    host: "db-113.internal"
+    port: 5545
+    name: "db_113"
+service_114:
+  host: "host-114.example.com"
+  port: 8114
+  debug: true
+  tags:
+    - "tag_a_114"
+    - "tag_b_114"
+  database:
+    host: "db-114.internal"
+    port: 5546
+    name: "db_114"
+service_115:
+  host: "host-115.example.com"
+  port: 8115
+  debug: false
+  tags:
+    - "tag_a_115"
+    - "tag_b_115"
+  database:
+    host: "db-115.internal"
+    port: 5547
+    name: "db_115"
+service_116:
+  host: "host-116.example.com"
+  port: 8116
+  debug: true
+  tags:
+    - "tag_a_116"
+    - "tag_b_116"
+  database:
+    host: "db-116.internal"
+    port: 5548
+    name: "db_116"
+service_117:
+  host: "host-117.example.com"
+  port: 8117
+  debug: false
+  tags:
+    - "tag_a_117"
+    - "tag_b_117"
+  database:
+    host: "db-117.internal"
+    port: 5549
+    name: "db_117"
+service_118:
+  host: "host-118.example.com"
+  port: 8118
+  debug: true
+  tags:
+    - "tag_a_118"
+    - "tag_b_118"
+  database:
+    host: "db-118.internal"
+    port: 5550
+    name: "db_118"
+service_119:
+  host: "host-119.example.com"
+  port: 8119
+  debug: false
+  tags:
+    - "tag_a_119"
+    - "tag_b_119"
+  database:
+    host: "db-119.internal"
+    port: 5551
+    name: "db_119"
+service_120:
+  host: "host-120.example.com"
+  port: 8120
+  debug: true
+  tags:
+    - "tag_a_120"
+    - "tag_b_120"
+  database:
+    host: "db-120.internal"
+    port: 5552
+    name: "db_120"
+service_121:
+  host: "host-121.example.com"
+  port: 8121
+  debug: false
+  tags:
+    - "tag_a_121"
+    - "tag_b_121"
+  database:
+    host: "db-121.internal"
+    port: 5553
+    name: "db_121"
+service_122:
+  host: "host-122.example.com"
+  port: 8122
+  debug: true
+  tags:
+    - "tag_a_122"
+    - "tag_b_122"
+  database:
+    host: "db-122.internal"
+    port: 5554
+    name: "db_122"
+service_123:
+  host: "host-123.example.com"
+  port: 8123
+  debug: false
+  tags:
+    - "tag_a_123"
+    - "tag_b_123"
+  database:
+    host: "db-123.internal"
+    port: 5555
+    name: "db_123"
+service_124:
+  host: "host-124.example.com"
+  port: 8124
+  debug: true
+  tags:
+    - "tag_a_124"
+    - "tag_b_124"
+  database:
+    host: "db-124.internal"
+    port: 5556
+    name: "db_124"
+service_125:
+  host: "host-125.example.com"
+  port: 8125
+  debug: false
+  tags:
+    - "tag_a_125"
+    - "tag_b_125"
+  database:
+    host: "db-125.internal"
+    port: 5557
+    name: "db_125"
+service_126:
+  host: "host-126.example.com"
+  port: 8126
+  debug: true
+  tags:
+    - "tag_a_126"
+    - "tag_b_126"
+  database:
+    host: "db-126.internal"
+    port: 5558
+    name: "db_126"
+service_127:
+  host: "host-127.example.com"
+  port: 8127
+  debug: false
+  tags:
+    - "tag_a_127"
+    - "tag_b_127"
+  database:
+    host: "db-127.internal"
+    port: 5559
+    name: "db_127"
+service_128:
+  host: "host-128.example.com"
+  port: 8128
+  debug: true
+  tags:
+    - "tag_a_128"
+    - "tag_b_128"
+  database:
+    host: "db-128.internal"
+    port: 5560
+    name: "db_128"
+service_129:
+  host: "host-129.example.com"
+  port: 8129
+  debug: false
+  tags:
+    - "tag_a_129"
+    - "tag_b_129"
+  database:
+    host: "db-129.internal"
+    port: 5561
+    name: "db_129"
+service_130:
+  host: "host-130.example.com"
+  port: 8130
+  debug: true
+  tags:
+    - "tag_a_130"
+    - "tag_b_130"
+  database:
+    host: "db-130.internal"
+    port: 5562
+    name: "db_130"
+service_131:
+  host: "host-131.example.com"
+  port: 8131
+  debug: false
+  tags:
+    - "tag_a_131"
+    - "tag_b_131"
+  database:
+    host: "db-131.internal"
+    port: 5563
+    name: "db_131"
+service_132:
+  host: "host-132.example.com"
+  port: 8132
+  debug: true
+  tags:
+    - "tag_a_132"
+    - "tag_b_132"
+  database:
+    host: "db-132.internal"
+    port: 5564
+    name: "db_132"
+service_133:
+  host: "host-133.example.com"
+  port: 8133
+  debug: false
+  tags:
+    - "tag_a_133"
+    - "tag_b_133"
+  database:
+    host: "db-133.internal"
+    port: 5565
+    name: "db_133"
+service_134:
+  host: "host-134.example.com"
+  port: 8134
+  debug: true
+  tags:
+    - "tag_a_134"
+    - "tag_b_134"
+  database:
+    host: "db-134.internal"
+    port: 5566
+    name: "db_134"
+service_135:
+  host: "host-135.example.com"
+  port: 8135
+  debug: false
+  tags:
+    - "tag_a_135"
+    - "tag_b_135"
+  database:
+    host: "db-135.internal"
+    port: 5567
+    name: "db_135"
+service_136:
+  host: "host-136.example.com"
+  port: 8136
+  debug: true
+  tags:
+    - "tag_a_136"
+    - "tag_b_136"
+  database:
+    host: "db-136.internal"
+    port: 5568
+    name: "db_136"
+service_137:
+  host: "host-137.example.com"
+  port: 8137
+  debug: false
+  tags:
+    - "tag_a_137"
+    - "tag_b_137"
+  database:
+    host: "db-137.internal"
+    port: 5569
+    name: "db_137"
+service_138:
+  host: "host-138.example.com"
+  port: 8138
+  debug: true
+  tags:
+    - "tag_a_138"
+    - "tag_b_138"
+  database:
+    host: "db-138.internal"
+    port: 5570
+    name: "db_138"
+service_139:
+  host: "host-139.example.com"
+  port: 8139
+  debug: false
+  tags:
+    - "tag_a_139"
+    - "tag_b_139"
+  database:
+    host: "db-139.internal"
+    port: 5571
+    name: "db_139"
+service_140:
+  host: "host-140.example.com"
+  port: 8140
+  debug: true
+  tags:
+    - "tag_a_140"
+    - "tag_b_140"
+  database:
+    host: "db-140.internal"
+    port: 5572
+    name: "db_140"
+service_141:
+  host: "host-141.example.com"
+  port: 8141
+  debug: false
+  tags:
+    - "tag_a_141"
+    - "tag_b_141"
+  database:
+    host: "db-141.internal"
+    port: 5573
+    name: "db_141"
+service_142:
+  host: "host-142.example.com"
+  port: 8142
+  debug: true
+  tags:
+    - "tag_a_142"
+    - "tag_b_142"
+  database:
+    host: "db-142.internal"
+    port: 5574
+    name: "db_142"
+service_143:
+  host: "host-143.example.com"
+  port: 8143
+  debug: false
+  tags:
+    - "tag_a_143"
+    - "tag_b_143"
+  database:
+    host: "db-143.internal"
+    port: 5575
+    name: "db_143"
+service_144:
+  host: "host-144.example.com"
+  port: 8144
+  debug: true
+  tags:
+    - "tag_a_144"
+    - "tag_b_144"
+  database:
+    host: "db-144.internal"
+    port: 5576
+    name: "db_144"
+service_145:
+  host: "host-145.example.com"
+  port: 8145
+  debug: false
+  tags:
+    - "tag_a_145"
+    - "tag_b_145"
+  database:
+    host: "db-145.internal"
+    port: 5577
+    name: "db_145"
+service_146:
+  host: "host-146.example.com"
+  port: 8146
+  debug: true
+  tags:
+    - "tag_a_146"
+    - "tag_b_146"
+  database:
+    host: "db-146.internal"
+    port: 5578
+    name: "db_146"
+service_147:
+  host: "host-147.example.com"
+  port: 8147
+  debug: false
+  tags:
+    - "tag_a_147"
+    - "tag_b_147"
+  database:
+    host: "db-147.internal"
+    port: 5579
+    name: "db_147"
+service_148:
+  host: "host-148.example.com"
+  port: 8148
+  debug: true
+  tags:
+    - "tag_a_148"
+    - "tag_b_148"
+  database:
+    host: "db-148.internal"
+    port: 5580
+    name: "db_148"
+service_149:
+  host: "host-149.example.com"
+  port: 8149
+  debug: false
+  tags:
+    - "tag_a_149"
+    - "tag_b_149"
+  database:
+    host: "db-149.internal"
+    port: 5581
+    name: "db_149"
+service_150:
+  host: "host-150.example.com"
+  port: 8150
+  debug: true
+  tags:
+    - "tag_a_150"
+    - "tag_b_150"
+  database:
+    host: "db-150.internal"
+    port: 5582
+    name: "db_150"
+service_151:
+  host: "host-151.example.com"
+  port: 8151
+  debug: false
+  tags:
+    - "tag_a_151"
+    - "tag_b_151"
+  database:
+    host: "db-151.internal"
+    port: 5583
+    name: "db_151"
+service_152:
+  host: "host-152.example.com"
+  port: 8152
+  debug: true
+  tags:
+    - "tag_a_152"
+    - "tag_b_152"
+  database:
+    host: "db-152.internal"
+    port: 5584
+    name: "db_152"
+service_153:
+  host: "host-153.example.com"
+  port: 8153
+  debug: false
+  tags:
+    - "tag_a_153"
+    - "tag_b_153"
+  database:
+    host: "db-153.internal"
+    port: 5585
+    name: "db_153"
+service_154:
+  host: "host-154.example.com"
+  port: 8154
+  debug: true
+  tags:
+    - "tag_a_154"
+    - "tag_b_154"
+  database:
+    host: "db-154.internal"
+    port: 5586
+    name: "db_154"
+service_155:
+  host: "host-155.example.com"
+  port: 8155
+  debug: false
+  tags:
+    - "tag_a_155"
+    - "tag_b_155"
+  database:
+    host: "db-155.internal"
+    port: 5587
+    name: "db_155"
+service_156:
+  host: "host-156.example.com"
+  port: 8156
+  debug: true
+  tags:
+    - "tag_a_156"
+    - "tag_b_156"
+  database:
+    host: "db-156.internal"
+    port: 5588
+    name: "db_156"
+service_157:
+  host: "host-157.example.com"
+  port: 8157
+  debug: false
+  tags:
+    - "tag_a_157"
+    - "tag_b_157"
+  database:
+    host: "db-157.internal"
+    port: 5589
+    name: "db_157"
+service_158:
+  host: "host-158.example.com"
+  port: 8158
+  debug: true
+  tags:
+    - "tag_a_158"
+    - "tag_b_158"
+  database:
+    host: "db-158.internal"
+    port: 5590
+    name: "db_158"
+service_159:
+  host: "host-159.example.com"
+  port: 8159
+  debug: false
+  tags:
+    - "tag_a_159"
+    - "tag_b_159"
+  database:
+    host: "db-159.internal"
+    port: 5591
+    name: "db_159"
+service_160:
+  host: "host-160.example.com"
+  port: 8160
+  debug: true
+  tags:
+    - "tag_a_160"
+    - "tag_b_160"
+  database:
+    host: "db-160.internal"
+    port: 5592
+    name: "db_160"
+service_161:
+  host: "host-161.example.com"
+  port: 8161
+  debug: false
+  tags:
+    - "tag_a_161"
+    - "tag_b_161"
+  database:
+    host: "db-161.internal"
+    port: 5593
+    name: "db_161"
+service_162:
+  host: "host-162.example.com"
+  port: 8162
+  debug: true
+  tags:
+    - "tag_a_162"
+    - "tag_b_162"
+  database:
+    host: "db-162.internal"
+    port: 5594
+    name: "db_162"
+service_163:
+  host: "host-163.example.com"
+  port: 8163
+  debug: false
+  tags:
+    - "tag_a_163"
+    - "tag_b_163"
+  database:
+    host: "db-163.internal"
+    port: 5595
+    name: "db_163"
+service_164:
+  host: "host-164.example.com"
+  port: 8164
+  debug: true
+  tags:
+    - "tag_a_164"
+    - "tag_b_164"
+  database:
+    host: "db-164.internal"
+    port: 5596
+    name: "db_164"
+service_165:
+  host: "host-165.example.com"
+  port: 8165
+  debug: false
+  tags:
+    - "tag_a_165"
+    - "tag_b_165"
+  database:
+    host: "db-165.internal"
+    port: 5597
+    name: "db_165"
+service_166:
+  host: "host-166.example.com"
+  port: 8166
+  debug: true
+  tags:
+    - "tag_a_166"
+    - "tag_b_166"
+  database:
+    host: "db-166.internal"
+    port: 5598
+    name: "db_166"
+service_167:
+  host: "host-167.example.com"
+  port: 8167
+  debug: false
+  tags:
+    - "tag_a_167"
+    - "tag_b_167"
+  database:
+    host: "db-167.internal"
+    port: 5599
+    name: "db_167"
+service_168:
+  host: "host-168.example.com"
+  port: 8168
+  debug: true
+  tags:
+    - "tag_a_168"
+    - "tag_b_168"
+  database:
+    host: "db-168.internal"
+    port: 5600
+    name: "db_168"
+service_169:
+  host: "host-169.example.com"
+  port: 8169
+  debug: false
+  tags:
+    - "tag_a_169"
+    - "tag_b_169"
+  database:
+    host: "db-169.internal"
+    port: 5601
+    name: "db_169"
+service_170:
+  host: "host-170.example.com"
+  port: 8170
+  debug: true
+  tags:
+    - "tag_a_170"
+    - "tag_b_170"
+  database:
+    host: "db-170.internal"
+    port: 5602
+    name: "db_170"
+service_171:
+  host: "host-171.example.com"
+  port: 8171
+  debug: false
+  tags:
+    - "tag_a_171"
+    - "tag_b_171"
+  database:
+    host: "db-171.internal"
+    port: 5603
+    name: "db_171"
+service_172:
+  host: "host-172.example.com"
+  port: 8172
+  debug: true
+  tags:
+    - "tag_a_172"
+    - "tag_b_172"
+  database:
+    host: "db-172.internal"
+    port: 5604
+    name: "db_172"
+service_173:
+  host: "host-173.example.com"
+  port: 8173
+  debug: false
+  tags:
+    - "tag_a_173"
+    - "tag_b_173"
+  database:
+    host: "db-173.internal"
+    port: 5605
+    name: "db_173"
+service_174:
+  host: "host-174.example.com"
+  port: 8174
+  debug: true
+  tags:
+    - "tag_a_174"
+    - "tag_b_174"
+  database:
+    host: "db-174.internal"
+    port: 5606
+    name: "db_174"
+service_175:
+  host: "host-175.example.com"
+  port: 8175
+  debug: false
+  tags:
+    - "tag_a_175"
+    - "tag_b_175"
+  database:
+    host: "db-175.internal"
+    port: 5607
+    name: "db_175"
+service_176:
+  host: "host-176.example.com"
+  port: 8176
+  debug: true
+  tags:
+    - "tag_a_176"
+    - "tag_b_176"
+  database:
+    host: "db-176.internal"
+    port: 5608
+    name: "db_176"
+service_177:
+  host: "host-177.example.com"
+  port: 8177
+  debug: false
+  tags:
+    - "tag_a_177"
+    - "tag_b_177"
+  database:
+    host: "db-177.internal"
+    port: 5609
+    name: "db_177"
+service_178:
+  host: "host-178.example.com"
+  port: 8178
+  debug: true
+  tags:
+    - "tag_a_178"
+    - "tag_b_178"
+  database:
+    host: "db-178.internal"
+    port: 5610
+    name: "db_178"
+service_179:
+  host: "host-179.example.com"
+  port: 8179
+  debug: false
+  tags:
+    - "tag_a_179"
+    - "tag_b_179"
+  database:
+    host: "db-179.internal"
+    port: 5611
+    name: "db_179"
+service_180:
+  host: "host-180.example.com"
+  port: 8180
+  debug: true
+  tags:
+    - "tag_a_180"
+    - "tag_b_180"
+  database:
+    host: "db-180.internal"
+    port: 5612
+    name: "db_180"
+service_181:
+  host: "host-181.example.com"
+  port: 8181
+  debug: false
+  tags:
+    - "tag_a_181"
+    - "tag_b_181"
+  database:
+    host: "db-181.internal"
+    port: 5613
+    name: "db_181"
+service_182:
+  host: "host-182.example.com"
+  port: 8182
+  debug: true
+  tags:
+    - "tag_a_182"
+    - "tag_b_182"
+  database:
+    host: "db-182.internal"
+    port: 5614
+    name: "db_182"
+service_183:
+  host: "host-183.example.com"
+  port: 8183
+  debug: false
+  tags:
+    - "tag_a_183"
+    - "tag_b_183"
+  database:
+    host: "db-183.internal"
+    port: 5615
+    name: "db_183"
+service_184:
+  host: "host-184.example.com"
+  port: 8184
+  debug: true
+  tags:
+    - "tag_a_184"
+    - "tag_b_184"
+  database:
+    host: "db-184.internal"
+    port: 5616
+    name: "db_184"
+service_185:
+  host: "host-185.example.com"
+  port: 8185
+  debug: false
+  tags:
+    - "tag_a_185"
+    - "tag_b_185"
+  database:
+    host: "db-185.internal"
+    port: 5617
+    name: "db_185"
+service_186:
+  host: "host-186.example.com"
+  port: 8186
+  debug: true
+  tags:
+    - "tag_a_186"
+    - "tag_b_186"
+  database:
+    host: "db-186.internal"
+    port: 5618
+    name: "db_186"
+service_187:
+  host: "host-187.example.com"
+  port: 8187
+  debug: false
+  tags:
+    - "tag_a_187"
+    - "tag_b_187"
+  database:
+    host: "db-187.internal"
+    port: 5619
+    name: "db_187"
+service_188:
+  host: "host-188.example.com"
+  port: 8188
+  debug: true
+  tags:
+    - "tag_a_188"
+    - "tag_b_188"
+  database:
+    host: "db-188.internal"
+    port: 5620
+    name: "db_188"
+service_189:
+  host: "host-189.example.com"
+  port: 8189
+  debug: false
+  tags:
+    - "tag_a_189"
+    - "tag_b_189"
+  database:
+    host: "db-189.internal"
+    port: 5621
+    name: "db_189"
+service_190:
+  host: "host-190.example.com"
+  port: 8190
+  debug: true
+  tags:
+    - "tag_a_190"
+    - "tag_b_190"
+  database:
+    host: "db-190.internal"
+    port: 5622
+    name: "db_190"
+service_191:
+  host: "host-191.example.com"
+  port: 8191
+  debug: false
+  tags:
+    - "tag_a_191"
+    - "tag_b_191"
+  database:
+    host: "db-191.internal"
+    port: 5623
+    name: "db_191"
+service_192:
+  host: "host-192.example.com"
+  port: 8192
+  debug: true
+  tags:
+    - "tag_a_192"
+    - "tag_b_192"
+  database:
+    host: "db-192.internal"
+    port: 5624
+    name: "db_192"
+service_193:
+  host: "host-193.example.com"
+  port: 8193
+  debug: false
+  tags:
+    - "tag_a_193"
+    - "tag_b_193"
+  database:
+    host: "db-193.internal"
+    port: 5625
+    name: "db_193"
+service_194:
+  host: "host-194.example.com"
+  port: 8194
+  debug: true
+  tags:
+    - "tag_a_194"
+    - "tag_b_194"
+  database:
+    host: "db-194.internal"
+    port: 5626
+    name: "db_194"
+service_195:
+  host: "host-195.example.com"
+  port: 8195
+  debug: false
+  tags:
+    - "tag_a_195"
+    - "tag_b_195"
+  database:
+    host: "db-195.internal"
+    port: 5627
+    name: "db_195"
+service_196:
+  host: "host-196.example.com"
+  port: 8196
+  debug: true
+  tags:
+    - "tag_a_196"
+    - "tag_b_196"
+  database:
+    host: "db-196.internal"
+    port: 5628
+    name: "db_196"
+service_197:
+  host: "host-197.example.com"
+  port: 8197
+  debug: false
+  tags:
+    - "tag_a_197"
+    - "tag_b_197"
+  database:
+    host: "db-197.internal"
+    port: 5629
+    name: "db_197"
+service_198:
+  host: "host-198.example.com"
+  port: 8198
+  debug: true
+  tags:
+    - "tag_a_198"
+    - "tag_b_198"
+  database:
+    host: "db-198.internal"
+    port: 5630
+    name: "db_198"
+service_199:
+  host: "host-199.example.com"
+  port: 8199
+  debug: false
+  tags:
+    - "tag_a_199"
+    - "tag_b_199"
+  database:
+    host: "db-199.internal"
+    port: 5631
+    name: "db_199"

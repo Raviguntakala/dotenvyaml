@@ -1,0 +1,10 @@
+# Act configuration for local CI testing
+# Install: brew install act
+
+# Use medium-sized Docker images (balance between size and compatibility)
+-P ubuntu-latest=catthehacker/ubuntu:act-latest
+-P macos-latest=catthehacker/ubuntu:act-latest
+-P windows-latest=catthehacker/ubuntu:act-latest
+
+# Secrets (if needed for testing)
+# -s GITHUB_TOKEN=your_token_here

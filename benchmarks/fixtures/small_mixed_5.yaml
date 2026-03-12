@@ -1,0 +1,55 @@
+service_0:
+  host: "host-0.example.com"
+  port: 8000
+  debug: true
+  tags:
+    - "tag_a_0"
+    - "tag_b_0"
+  database:
+    host: "db-0.internal"
+    port: 5432
+    name: "db_0"
+service_1:
+  host: "host-1.example.com"
+  port: 8001
+  debug: false
+  tags:
+    - "tag_a_1"
+    - "tag_b_1"
+  database:
+    host: "db-1.internal"
+    port: 5433
+    name: "db_1"
+service_2:
+  host: "host-2.example.com"
+  port: 8002
+  debug: true
+  tags:
+    - "tag_a_2"
+    - "tag_b_2"
+  database:
+    host: "db-2.internal"
+    port: 5434
+    name: "db_2"
+service_3:
+  host: "host-3.example.com"
+  port: 8003
+  debug: false
+  tags:
+    - "tag_a_3"
+    - "tag_b_3"
+  database:
+    host: "db-3.internal"
+    port: 5435
+    name: "db_3"
+service_4:
+  host: "host-4.example.com"
+  port: 8004
+  debug: true
+  tags:
+    - "tag_a_4"
+    - "tag_b_4"
+  database:
+    host: "db-4.internal"
+    port: 5436
+    name: "db_4"

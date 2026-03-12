@@ -1,0 +1,8 @@
+[package]
+name = "dotenvyaml-core"
+version = "0.2.0"
+edition = "2021"
+description = "Core YAML parsing and flattening logic for dotenvyaml"
+
+[dependencies]
+serde_yaml = "0.9"

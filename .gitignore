@@ -5,6 +5,25 @@ build/
 dist/
 wheels/
 *.egg-info
+*.so
+*.dylib
+*.pyd
+.coverage
 
 # Virtual environments
 .venv
+
+# Rust build artifacts
+target/
+Cargo.lock
+
+# macOS debug symbols
+*.dSYM/
+
+# Test cache
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
